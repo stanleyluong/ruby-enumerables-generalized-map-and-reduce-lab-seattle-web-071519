@@ -18,9 +18,3 @@ def reduce(array, memo = nil)
   end
   return memo
 end
-
-# def add(x,y)
-#   x + y
-# end
-
-# 1+= 1
