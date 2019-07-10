@@ -22,6 +22,8 @@ end
 def reduce(array, s=nil)
   if !s
     return array.reduce(s) do |memo,n|
-    yield memo, n
+      yield memo, n
   end
+else s = array.shift
+    
 end
