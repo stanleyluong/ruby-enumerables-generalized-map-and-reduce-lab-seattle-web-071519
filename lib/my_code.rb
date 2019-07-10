@@ -18,3 +18,11 @@ end
 #   end
 #   return memo
 # end
+
+def reduce(array, s=nil)
+  if s
+    
+  return array.reduce(s) do |memo,n|
+    yield memo, n
+  end
+end
